@@ -1,0 +1,122 @@
+.wrapper {
+	background-image: url(img/qqq.jpg) ;
+	background-size:cover;
+	min-height: 99vh;
+}
+body {
+	margin: 0;
+}
+.menu {
+	margin:0;
+padding:0;
+list-style: none;
+font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	display: block;
+    text-decoration: none;
+color: pink;
+font-size:18px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right:30px;
+}
+	.menu a:hover{
+		
+		color: blue;
+	}
+	.menu a.active {
+		color: black;
+	}
+	.header {
+		display: flex ;
+		align-items: center;
+		gap: 150px;
+	}
+	/* ГОЛОВНА */
+	.main {
+		width: 1000px;
+		margin: 0 auto;
+		padding-top: 100px; 
+	
+	}
+	
+	.main-img {
+		float: right;
+	}
+	.main-title {
+		color: white;
+		font-size: 40px;
+	}
+	.subtitle {
+		color: pink ;
+		font-style: italic;
+	}
+	.button {
+		width: 140px;
+		height: 60px;
+		font-family: Verdana ;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: yellow;
+	border: 4px boudle black;
+	color: pink;
+	}
+	
+	.botton a {
+		color: black;
+	}
+	
+	/* НОВИНКИ */
+	.yss { 
+	text-align: center;
+	text-decoration: underline;
+	
+	}
+	
+	.tovars-title {
+		text-decoration: underline;
+	}
+	
+	.robot {
+		width: 150px;
+	}
+	
+	.about {
+	text-align: center; 
+	}
+	
+	.star { display:inline-block;
+		background: url(img/eee.png);
+		background-size: cover;
+		width: 100px;
+		height: 100px;
+	}
+	
+	.star:hover {
+		background: url(img/fef.png);
+		background-size: cover;
+		width: 100px;
+		height: 100px;
+	}
+	
+	.tovars {
+		color: white;
+	}
+	.colons {
+		display: flex;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
